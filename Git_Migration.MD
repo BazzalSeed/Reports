@@ -51,5 +51,18 @@ The process of pushing local repo to remote on any git service (github in this c
 
 
 ### Tutorials
-##### Git to know you
-##### Github Review Process
+This section has two parts. Part 1 addresses how we uses git (not github) as our source control technology based on our svn knowledge
+
+##### A.Git to know you
+Instead of me writing tutorial, it is probably better for me to gather existing well-written tutorial here
+
+1. [A very good introduction to git](https://www.youtube.com/watch?v=0fKg7e37bQE)
+should give you enough knowledge to satisfy our needs for work
+2. [From SVN to GIT](https://git-scm.com/course/svn.html) gives you nice comparison between using SVN and GIT
+
+
+
+##### B.Github Review Process
+Review-board functions ok in our workflow but sometimes rather counter-intuitive especially when the process requires more people involved or live feedback. The new workflow based on github should allow us to collaborate in a much more integrated and intuitive fashion(no need to generate .diff then uploading anymore).
+1. [Introduction to team workflow on git](https://www.youtube.com/watch?v=oFYyTZwMyAg&t=453s) should give you enough grounds to use this new workflow
+2. [A more in-depth discussion](https://www.youtube.com/watch?v=EwWZbyjDs9c) if you want more detail about the design philosophy

@@ -1,5 +1,5 @@
 ## Migration Process
----
+
 ###### repo urls
 svn+ssh://matt@dev.locately.com/ebs/repo/siphon/
 svn+ssh://matt@dev.locately.com/ebs/repo/caliper/
@@ -49,10 +49,11 @@ fgruhn = Fred Gruhn<fgruhn@smg.com>
 Now  you should have a working local git repo. Unlike SVN, a local repo (working copy) has all the information of the repo. It's a local clone of all distributed information. This is where the power of distributed workflow come from.
 
 The process of pushing local repo to remote on any git service (github in this case) is fairly trivial. Follow the standard procedure described by github
+
 =====
 
 ## Tutorials
-----
+
 This section has two parts. Part 1 addresses how we uses git (not github) as our source control technology based on our svn knowledge
 
 ##### A.Git to know you

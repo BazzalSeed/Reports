@@ -64,5 +64,6 @@ should give you enough knowledge to satisfy our needs for work
 
 ##### B.Github Review Process
 Review-board functions ok in our workflow but sometimes rather counter-intuitive especially when the process requires more people involved or live feedback. The new workflow based on github should allow us to collaborate in a much more integrated and intuitive fashion(no need to generate .diff then uploading anymore).
+
 1. [Introduction to team workflow on git](https://www.youtube.com/watch?v=oFYyTZwMyAg&t=453s) should give you enough grounds to use this new workflow
 2. [A more in-depth discussion](https://www.youtube.com/watch?v=EwWZbyjDs9c) if you want more detail about the design philosophy

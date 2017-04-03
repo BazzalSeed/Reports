@@ -1,5 +1,6 @@
 #### Functionality
 ##### Basic
+----------
 Input:
 
 An arbitrary file with the same format as the attached example file. Your
@@ -16,6 +17,7 @@ Output:
 7. A list of 25 modified names (see below for details)
 
 ##### Usage
+---------
 1.  activate virtual env by
     ```
     source yesware_virtual/bin/activate
@@ -133,6 +135,7 @@ Output:
 
 
 ##### Extra
+-----------
 1. user has the ability to specify to query
     * how many (kl) top frequent lastnames (defaulted to be 10)
     * how many (kf) top frequent firstnames (defaulted to be 10)

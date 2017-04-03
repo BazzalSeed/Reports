@@ -92,7 +92,7 @@ Output:
   ======================
   
   [u'graham filomena', u'marvin agustina', u'mclaughlin davin', u'lang mckenna', u'bradtke stanley', u'adams madison', u'lehner chaz', u'ortiz matilde', u'koch elmo', u'cartwright lennie', u'fisher norma', u'kunze thad', u'stanton luis', u"o'conner jane", u'runolfsdottir garfield', u'rogahn nicolas', u'tromp donna', u'hoppe ryley', u'shanahan mariah', u'hills bethel', u'mcglynn constantin', u'lynch gertrude', u'bahringer ivah', u'tillman anita', u'stoltenberg roy', u'dickinson samanta', u'bechtelar sonya', u'mcdermott nikko', u'pfannerstill colby', u'feest berry']
-
+#
   Saving result to log file
   /Users/szeng/Desktop/yesware/IO/sample_input.txt
 ```
@@ -161,3 +161,7 @@ So when N is really huge, bucket has the best worst case runtime but the space
 can be large if k is huge
 When k is small, heap is a good option
 in general, dirty and simple python sort method runs pretty well
+
+#### Approach & Design
+
+Very concise and clear OOP design, detailed approach is documented in individua file

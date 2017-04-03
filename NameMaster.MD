@@ -141,7 +141,7 @@ Output:
 3. user can specify the method to get the top k frequent first/last names, they
 are all have advantages/disadvantages in terms of efficiency depending upon the
 size of the input and the value of k to query
-
+```
 N - size of the input file
 K - top k most frequent you try to query
         *  sort
@@ -153,7 +153,7 @@ K - top k most frequent you try to query
         * bucket
             * Time - O(N)
             * Space - O(K + N)
-
+```
 So when N is really huge, bucket has the best worst case runtime but the space
 can be large if k is huge
 When k is small, heap is a good option

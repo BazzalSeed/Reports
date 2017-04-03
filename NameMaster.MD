@@ -50,8 +50,9 @@ Output:
       --log
   ```
 3.  **Sample Run**
-    ```
-    python nameMaster.py IO/sample_input.txt analyze -cl 20 -cf 18 -u 30 -m sort --log
+
+```
+        python nameMaster.py IO/sample_input.txt analyze -cl 20 -cf 18 -u 30 -m sort --log
 
     Start Analyzing
 
@@ -92,42 +93,43 @@ Output:
 
   Saving result to log file
   /Users/szeng/Desktop/yesware/IO/sample_input.txt
-  ```
+```
 4. test run
- ```
-running some intuitive test cases using /Users/szeng/Desktop/yesware/IO/sample_input.txt
-Finished parsing the file
-checking no three sorting method
 
-getting your answer via bucket sort
-getting your answer via sorting
-getting your answer via heap manipulation
-[u'tara', u'andreanne', u'keon', u'stephania', u'summer', u'ulices', u'manley', u'kayley', u'kaycee', u'madyson'] [u'tara', u'andreanne', u'keon', u'stephania', u'summer', u'ulices', u'manley', u'kayley', u'kaycee', u'madyson'] [u'tara', u'andreanne', u'keon', u'stephania', u'summer', u'ulices', u'manley', u'kayley', u'kaycee', u'madyson']
-False
-checking complete unique names
+```
+    running some intuitive test cases using /Users/szeng/Desktop/yesware/IO/sample_input.txt
+    Finished parsing the file
+    checking no three sorting method
 
-=====>No repeatitive full names
+    getting your answer via bucket sort
+    getting your answer via sorting
+    getting your answer via heap manipulation
+    [u'tara', u'andreanne', u'keon', u'stephania', u'summer', u'ulices', u'manley', u'kayley', u'kaycee', u'madyson'] [u'tara', u'andreanne', u'keon', u'stephania', u'summer', u'ulices', u'manley', u'kayley', u'kaycee', u'madyson'] [u'tara', u'andreanne', u'keon', u'stephania', u'summer', u'ulices', u'manley', u'kayley', u'kaycee', u'madyson']
+    False
+    checking complete unique names
 
-True
+    =====>No repeatitive full names
 
-=====>No repeatitive last names
+    True
 
-True
+    =====>No repeatitive last names
 
-=====>No repeatitive first names
-True
+    True
+
+    =====>No repeatitive first names
+    True
 
 
-checking all modified names
+    checking all modified names
 
-===>modified list and the initial list should not share any full names (1000 times)
-True
-[u'graham mckenna', u'marvin garfield', u'mclaughlin mariah', u'lang agustina', u'bradtke nikko', u'adams luis', u'lehner matilde', u'ortiz anita', u'koch berry', u'cartwright nicolas', u'fisher elmo', u'kunze gertrude', u'stanton davin', u"o'conner constantin", u'runolfsdottir roy', u'rogahn colby', u'tromp ryley', u'hoppe stanley', u'shanahan bethel', u'hills samanta', u'mcglynn thad', u'lynch norma', u'bahringer lennie', u'tillman madison', u'stoltenberg donna'] [u'graham thad', u'marvin luis', u'mclaughlin nicolas', u'lang anita', u'bradtke garfield', u'adams ryley', u'lehner madison', u'ortiz colby', u'koch davin', u'cartwright donna', u'fisher matilde', u'kunze constantin', u'stanton agustina', u"o'conner roy", u'runolfsdottir berry', u'rogahn elmo', u'tromp mariah', u'hoppe norma', u'shanahan mckenna', u'hills stanley', u'mcglynn lennie', u'lynch gertrude', u'bahringer nikko', u'tillman bethel', u'stoltenberg samanta']
-=====>no first or last name may be used more than once.
-[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
-[True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+    ===>modified list and the initial list should not share any full names (1000 times)
+    True
+    [u'graham mckenna', u'marvin garfield', u'mclaughlin mariah', u'lang agustina', u'bradtke nikko', u'adams luis', u'lehner matilde', u'ortiz anita', u'koch berry', u'cartwright nicolas', u'fisher elmo', u'kunze gertrude', u'stanton davin', u"o'conner constantin", u'runolfsdottir roy', u'rogahn colby', u'tromp ryley', u'hoppe stanley', u'shanahan bethel', u'hills samanta', u'mcglynn thad', u'lynch norma', u'bahringer lennie', u'tillman madison', u'stoltenberg donna'] [u'graham thad', u'marvin luis', u'mclaughlin nicolas', u'lang anita', u'bradtke garfield', u'adams ryley', u'lehner madison', u'ortiz colby', u'koch davin', u'cartwright donna', u'fisher matilde', u'kunze constantin', u'stanton agustina', u"o'conner roy", u'runolfsdottir berry', u'rogahn elmo', u'tromp mariah', u'hoppe norma', u'shanahan mckenna', u'hills stanley', u'mcglynn lennie', u'lynch gertrude', u'bahringer nikko', u'tillman bethel', u'stoltenberg samanta']
+    =====>no first or last name may be used more than once.
+    [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
+    [True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True, True]
 
-   ```
+```
 
 
 ###### Extra
@@ -142,15 +144,16 @@ size of the input and the value of k to query
 
 N - size of the input file
 K - top k most frequent you try to query
-    *  sort
-        * Time - N*Lg(N)
-        * Space - O(N)
-    * heap
-        * Time - O(N*lg(k))
-        * Space - O(K)
-    * bucket
-        * Time - O(N)
-        * Space - O(K + N)
+        *  sort
+            * Time - N*Lg(N)
+            * Space - O(N)
+        * heap
+            * Time - O(N*lg(k))
+            * Space - O(K)
+        * bucket
+            * Time - O(N)
+            * Space - O(K + N)
+
 So when N is really huge, bucket has the best worst case runtime but the space
 can be large if k is huge
 When k is small, heap is a good option

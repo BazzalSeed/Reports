@@ -67,27 +67,35 @@ Output:
   3. There are 3007 unique number of first names
 
   4. The most common 20 lastnames are
-  =====================
-  [u'barton', u'lang', u'ortiz', u'hilll', u'hills', u'terry', u'becker', u'romaguera', u'johns', u'crist', u'batz', u'mckenzie', u'hansen', u'davis', u'herman', u'west', u'tromp', u'harris', u'upton', u'mayert']
+ 
+ =====================
+ 
+ [u'barton', u'lang', u'ortiz', u'hilll', u'hills', u'terry', u'becker', u'romaguera', u'johns', u'crist', u'batz',    u'mckenzie', u'hansen', u'davis', u'herman', u'west', u'tromp', u'harris', u'upton', u'mayert']
 
   5. The most common 18 firstnames are
+  
   =====================
+  
   [u'tara', u'andreanne', u'keon', u'stephania', u'summer', u'ulices', u'manley', u'kayley', u'kaycee', u'madyson', u'milo', u'dashawn', u'heath', u'charlotte', u'baron', u'cecil', u'minerva', u'tiana']
 
   6. Here is your 30 completely unique names
+  
   ===================
+  
   [u'graham mckenna', u'marvin garfield', u'mclaughlin mariah', u'lang agustina', u'bradtke nikko', u'adams luis', u'lehner matilde', u'ortiz anita', u'koch berry', u'cartwright nicolas', u'fisher elmo', u'kunze gertrude', u'stanton davin', u"o'conner constantin", u'runolfsdottir roy', u'rogahn colby', u'tromp ryley', u'hoppe stanley', u'shanahan bethel', u'hills samanta', u'mcglynn thad', u'lynch norma', u'bahringer lennie', u'tillman madison', u'stoltenberg donna', u'dickinson sonya', u'bechtelar jane', u'mcdermott ivah', u'pfannerstill filomena', u'feest chaz']
 
   7. Here is the 30 modified unique names
+  
   ======================
+  
   [u'graham filomena', u'marvin agustina', u'mclaughlin davin', u'lang mckenna', u'bradtke stanley', u'adams madison', u'lehner chaz', u'ortiz matilde', u'koch elmo', u'cartwright lennie', u'fisher norma', u'kunze thad', u'stanton luis', u"o'conner jane", u'runolfsdottir garfield', u'rogahn nicolas', u'tromp donna', u'hoppe ryley', u'shanahan mariah', u'hills bethel', u'mcglynn constantin', u'lynch gertrude', u'bahringer ivah', u'tillman anita', u'stoltenberg roy', u'dickinson samanta', u'bechtelar sonya', u'mcdermott nikko', u'pfannerstill colby', u'feest berry']
 
   Saving result to log file
   /Users/szeng/Desktop/yesware/IO/sample_input.txt
   ```
 4. test run
-   ```
-   running some intuitive test cases using /Users/szeng/Desktop/yesware/IO/sample_input.txt
+ ```
+running some intuitive test cases using /Users/szeng/Desktop/yesware/IO/sample_input.txt
 Finished parsing the file
 checking no three sorting method
 
@@ -97,10 +105,15 @@ getting your answer via heap manipulation
 [u'tara', u'andreanne', u'keon', u'stephania', u'summer', u'ulices', u'manley', u'kayley', u'kaycee', u'madyson'] [u'tara', u'andreanne', u'keon', u'stephania', u'summer', u'ulices', u'manley', u'kayley', u'kaycee', u'madyson'] [u'tara', u'andreanne', u'keon', u'stephania', u'summer', u'ulices', u'manley', u'kayley', u'kaycee', u'madyson']
 False
 checking complete unique names
+
 =====>No repeatitive full names
+
 True
+
 =====>No repeatitive last names
+
 True
+
 =====>No repeatitive first names
 True
 
